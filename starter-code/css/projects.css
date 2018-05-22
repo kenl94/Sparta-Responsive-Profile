@@ -18,3 +18,26 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 1174px) {
+  .tile, .tile a {
+    display: block;
+    width: 100%
+  }
+  .tile img {
+    display: 100%;
+  }
+
+}
+
+@media screen and (max-width: 471px){
+  .tile img{
+    display: none;
+  }
+
+  .tile {
+    display: block;
+    border: none;
+  }
+
+}
