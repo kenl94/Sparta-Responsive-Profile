@@ -1,0 +1,43 @@
+.screenshot {
+  padding-top:30px;
+  height: 200px;
+  width: 300px;
+}
+
+.tile {
+	display: inline-block;
+	width: 30%;
+	margin-right: 3%;
+	margin-top: 25px;
+	text-align: center;
+	border: 2px solid #E13A63;
+	box-sizing: border-box;
+}
+
+.tile img	{
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1174px) {
+  .tile, .tile a {
+    display: block;
+    width: 100%
+  }
+  .tile img {
+    display: 100%;
+  }
+
+}
+
+@media screen and (max-width: 471px){
+  .tile img{
+    display: none;
+  }
+
+  .tile {
+    display: block;
+    border: none;
+  }
+
+}
